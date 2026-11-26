@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CBD352A02A73E54F7A8735A /* RecallSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75A0BA4BE85F9136D279D0 /* RecallSession.swift */; };
+		279D287640AE71D7ADEDA623 /* CardFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578E404596AB517ED64C3A47 /* CardFace.swift */; };
+		2A3B739D291DBAC7FE10FE56 /* RecallSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75A0BA4BE85F9136D279D0 /* RecallSession.swift */; };
+		33336A615E70EBE595F7D5E4 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB61A9139788C07FDD9FE8F /* Lesson.swift */; };
+		888757CDE531FE80BDDC19CA /* RecallJourney.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B097C33FC1E5425BFF5C24 /* RecallJourney.swift */; };
+		8A320CF8DFF5912935616470 /* SuitRecallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C351E9FA6E708A717DAA86 /* SuitRecallApp.swift */; };
+		A0A2CE870E25B96D7061922F /* Workbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFECA3CD6A11C99C02529D6 /* Workbook.swift */; };
+		A0ED9CE7A9FB64F4EB40D32F /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB61A9139788C07FDD9FE8F /* Lesson.swift */; };
+		A6CAB9951773ED3767835711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A641E4C0D743A19ECE03684 /* Assets.xcassets */; };
+		B6FD5EEAEBC950E739F6C6C9 /* Workbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFECA3CD6A11C99C02529D6 /* Workbook.swift */; };
+		D46037C3ACDD2B1B56EBE4FD /* StoreFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9961974667A1C67C33CFCD8F /* StoreFrame.swift */; };
+		7CF15B3B88A82143FD2D60FE /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DF6980E025783DCB2CB31 /* Localizable.xcstrings */; };
+		D6C7E69B80A8E075426BC909 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A4D2BF9B5C0028FAFF828C96 /* InfoPlist.xcstrings */; };
+		904EC700FD6F912115E3990F /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4790E9834DFAF13C89D468D /* Localization.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7902913DFD77ED8193FB1549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBB592327EAF5B48159B164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7918746807F7EAAC2A0F6F7C;
+			remoteInfo = SuitRecall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A641E4C0D743A19ECE03684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AFECA3CD6A11C99C02529D6 /* Workbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workbook.swift; sourceTree = "<group>"; };
+		2C75A0BA4BE85F9136D279D0 /* RecallSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecallSession.swift; sourceTree = "<group>"; };
+		578E404596AB517ED64C3A47 /* CardFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFace.swift; sourceTree = "<group>"; };
+		6E78A5D24AA6323FDE2FBCE7 /* SuitRecall.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SuitRecall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C351E9FA6E708A717DAA86 /* SuitRecallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuitRecallApp.swift; sourceTree = "<group>"; };
+		9961974667A1C67C33CFCD8F /* StoreFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreFrame.swift; sourceTree = "<group>"; };
+		9D0C12FE868C9EED6FC92DED /* SuitRecallUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SuitRecallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B097C33FC1E5425BFF5C24 /* RecallJourney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecallJourney.swift; sourceTree = "<group>"; };
+		EAB61A9139788C07FDD9FE8F /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		9A4DF6980E025783DCB2CB31 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		A4D2BF9B5C0028FAFF828C96 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		B4790E9834DFAF13C89D468D /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		36E93D5922B073254F34FBDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E78A5D24AA6323FDE2FBCE7 /* SuitRecall.app */,
+				9D0C12FE868C9EED6FC92DED /* SuitRecallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1550EAAC3931F2FEE38137E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B4790E9834DFAF13C89D468D /* Localization.swift */,
+				A4D2BF9B5C0028FAFF828C96 /* InfoPlist.xcstrings */,
+				9A4DF6980E025783DCB2CB31 /* Localizable.xcstrings */,
+				2A641E4C0D743A19ECE03684 /* Assets.xcassets */,
+				578E404596AB517ED64C3A47 /* CardFace.swift */,
+				EAB61A9139788C07FDD9FE8F /* Lesson.swift */,
+				2C75A0BA4BE85F9136D279D0 /* RecallSession.swift */,
+				9961974667A1C67C33CFCD8F /* StoreFrame.swift */,
+				76C351E9FA6E708A717DAA86 /* SuitRecallApp.swift */,
+				2AFECA3CD6A11C99C02529D6 /* Workbook.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CD9E0A24D69BE02A50D414E2 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B097C33FC1E5425BFF5C24 /* RecallJourney.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		FDEFA22EC28E9652D3CFC5EB = {
+			isa = PBXGroup;
+			children = (
+				C1550EAAC3931F2FEE38137E /* Source */,
+				CD9E0A24D69BE02A50D414E2 /* UITests */,
+				36E93D5922B073254F34FBDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7918746807F7EAAC2A0F6F7C /* SuitRecall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D10D14441886D0103DE3BD /* Build configuration list for PBXNativeTarget "SuitRecall" */;
+			buildPhases = (
+				FF3D97FDB9A3D114CD0AFC50 /* Sources */,
+				EF59B60AA508AE5CDAF6988C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuitRecall;
+			packageProductDependencies = (
+			);
+			productName = SuitRecall;
+			productReference = 6E78A5D24AA6323FDE2FBCE7 /* SuitRecall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B41827BE12BF44F13F431E22 /* SuitRecallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69491ACE9A17DAFC7617189 /* Build configuration list for PBXNativeTarget "SuitRecallUITests" */;
+			buildPhases = (
+				2793A82101C36D2F6DE4C529 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				892E2DDF69F5A859BC762581 /* PBXTargetDependency */,
+			);
+			name = SuitRecallUITests;
+			packageProductDependencies = (
+			);
+			productName = SuitRecallUITests;
+			productReference = 9D0C12FE868C9EED6FC92DED /* SuitRecallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDBB592327EAF5B48159B164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B41827BE12BF44F13F431E22 = {
+						TestTargetID = 7918746807F7EAAC2A0F6F7C;
+					};
+				};
+			};
+			buildConfigurationList = 2C61D0FC4923DED0C10998A0 /* Build configuration list for PBXProject "SuitRecall" */;
+			developmentRegion = "en-GB";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ar,
+				"zh-Hant",
+				Base,
+				"en-GB",
+			);
+			mainGroup = FDEFA22EC28E9652D3CFC5EB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 36E93D5922B073254F34FBDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7918746807F7EAAC2A0F6F7C /* SuitRecall */,
+				B41827BE12BF44F13F431E22 /* SuitRecallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF59B60AA508AE5CDAF6988C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CAB9951773ED3767835711 /* Assets.xcassets in Resources */,
+				D6C7E69B80A8E075426BC909 /* InfoPlist.xcstrings in Resources */,
+				7CF15B3B88A82143FD2D60FE /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2793A82101C36D2F6DE4C529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ED9CE7A9FB64F4EB40D32F /* Lesson.swift in Sources */,
+				888757CDE531FE80BDDC19CA /* RecallJourney.swift in Sources */,
+				2A3B739D291DBAC7FE10FE56 /* RecallSession.swift in Sources */,
+				B6FD5EEAEBC950E739F6C6C9 /* Workbook.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3D97FDB9A3D114CD0AFC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279D287640AE71D7ADEDA623 /* CardFace.swift in Sources */,
+				33336A615E70EBE595F7D5E4 /* Lesson.swift in Sources */,
+				1CBD352A02A73E54F7A8735A /* RecallSession.swift in Sources */,
+				D46037C3ACDD2B1B56EBE4FD /* StoreFrame.swift in Sources */,
+				8A320CF8DFF5912935616470 /* SuitRecallApp.swift in Sources */,
+				904EC700FD6F912115E3990F /* Localization.swift in Sources */,
+				A0A2CE870E25B96D7061922F /* Workbook.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		892E2DDF69F5A859BC762581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7918746807F7EAAC2A0F6F7C /* SuitRecall */;
+			targetProxy = 7902913DFD77ED8193FB1549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28570EB35B84678F80576B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.suitrecall.memory.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuitRecall;
+			};
+			name = Debug;
+		};
+		33F7C4F6A3D1B513D5540028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Guit Recall";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.suitrecall.memory;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39288C68CED7030048DAD69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.suitrecall.memory.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuitRecall;
+			};
+			name = Release;
+		};
+		58D1A22D4FB7CC457B8DC884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80F0A1F5CE5E1E4A09E85599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Guit Recall";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = studio.suitrecall.memory;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF49879EB763C5849B70F5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C61D0FC4923DED0C10998A0 /* Build configuration list for PBXProject "SuitRecall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D1A22D4FB7CC457B8DC884 /* Debug */,
+				BF49879EB763C5849B70F5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C9D10D14441886D0103DE3BD /* Build configuration list for PBXNativeTarget "SuitRecall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F0A1F5CE5E1E4A09E85599 /* Debug */,
+				33F7C4F6A3D1B513D5540028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D69491ACE9A17DAFC7617189 /* Build configuration list for PBXNativeTarget "SuitRecallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28570EB35B84678F80576B61 /* Debug */,
+				39288C68CED7030048DAD69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDBB592327EAF5B48159B164 /* Project object */;
+}

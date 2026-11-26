@@ -1,0 +1,29 @@
+{
+  "sourceLanguage": "en-GB",
+  "strings": {
+    "CFBundleDisplayName": {
+      "extractionState": "manual",
+      "localizations": {
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guit Recall"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guit Recall"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guit Recall"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
